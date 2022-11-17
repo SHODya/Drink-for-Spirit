@@ -9,11 +9,14 @@
     box-sizing: border-box;
 }
 
-a, button {
+a,
+button {
     cursor: revert;
 }
 
-ol, ul, menu {
+ol,
+ul,
+menu {
     list-style: none;
 }
 
@@ -25,7 +28,8 @@ table {
     border-collapse: collapse;
 }
 
-input, textarea {
+input,
+textarea {
     -webkit-user-select: auto;
 }
 
@@ -65,53 +69,95 @@ meter {
 
 /* karla-regular - latin */
 @font-face {
-  font-family: 'Karla';
-  font-style: normal;
-  font-weight: 400;
-  src: local(''),
-       url('../fonts/karla-v23-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/karla-v23-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* karla-500 - latin */
-@font-face {
-  font-family: 'Karla';
-  font-style: normal;
-  font-weight: 500;
-  src: local(''),
-       url('../fonts/karla-v23-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/karla-v23-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* karla-italic - latin */
-@font-face {
-  font-family: 'Karla';
-  font-style: italic;
-  font-weight: 400;
-  src: local(''),
-       url('../fonts/karla-v23-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/karla-v23-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* karla-700italic - latin */
-@font-face {
-  font-family: 'Karla';
-  font-style: italic;
-  font-weight: 700;
-  src: local(''),
-       url('../fonts/karla-v23-latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/karla-v23-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* karla-800italic - latin */
-@font-face {
-  font-family: 'Karla';
-  font-style: italic;
-  font-weight: 800;
-  src: local(''),
-       url('../fonts/karla-v23-latin-800italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/karla-v23-latin-800italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('../fonts/karla-v23-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/karla-v23-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-html{
+/* karla-500 - latin */
+@font-face {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+        url('../fonts/karla-v23-latin-500.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/karla-v23-latin-500.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* karla-italic - latin */
+@font-face {
+    font-family: 'Karla';
+    font-style: italic;
+    font-weight: 400;
+    src: local(''),
+        url('../fonts/karla-v23-latin-italic.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/karla-v23-latin-italic.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* karla-700italic - latin */
+@font-face {
+    font-family: 'Karla';
+    font-style: italic;
+    font-weight: 700;
+    src: local(''),
+        url('../fonts/karla-v23-latin-700italic.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/karla-v23-latin-700italic.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* karla-800italic - latin */
+@font-face {
+    font-family: 'Karla';
+    font-style: italic;
+    font-weight: 800;
+    src: local(''),
+        url('../fonts/karla-v23-latin-800italic.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/karla-v23-latin-800italic.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html {
     box-sizing: border-box;
 }
-*, *::before, *::after{
+
+*,
+*::before,
+*::after {
     box-sizing: inherit;
+}
+
+.container {
+
+    margin: 0 2%;
+}
+
+.header {
+
+}
+
+.header__wrapper {
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__link {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 47px;
+
 }

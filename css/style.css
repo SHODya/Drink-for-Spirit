@@ -142,9 +142,7 @@ html {
     margin: 0 2%;
 }
 
-.header {
-
-}
+.header {}
 
 .header__wrapper {
     height: 64px;
@@ -172,7 +170,7 @@ html {
     left: 0;
     content: '';
     opacity: 0.25;
-    
+
 }
 
 .nav__link:last-child {
@@ -204,14 +202,23 @@ html {
     left: 0;
     content: '';
     opacity: 0.25;
-    
+
 }
 
-.bO {
+.cO {
     margin-top: 46px;
     width: 100%;
     display: flex;
-    justify-content:center;
+    justify-content: center;
+    align-items: center;
+}
+
+.cObj {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
     align-items: center;
 }
 
@@ -219,12 +226,29 @@ html {
     margin: 61px 106px 0px 106px;
     display: flex;
     justify-content: space-between;
-    align-items: center;  
+    align-items: center;
 }
 
 .tagline {
     margin-top: 20px;
+    position: absolute;
+    width: 814px;
+    height: 47px;
+    left: 570px;
+    top: 890px;
+}
+
+.Menu {
+    margin-right: 165px;
+}
+
+.menuObjs {
+    margin: 50px 0px 50px 165px;
     display: flex;
-    justify-content:center;
-    align-items: center; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuObj {
+
 }

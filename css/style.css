@@ -159,5 +159,72 @@ html {
     font-weight: 800;
     font-size: 40px;
     line-height: 47px;
+    margin-right: 117px;
+    position: relative;
+}
 
+.nav__link:after {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    content: '';
+    opacity: 0.25;
+    
+}
+
+.nav__link:last-child {
+    margin-right: 0px;
+}
+
+.cart__link {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 47px;
+    align-items: center;
+
+}
+
+.header__cart {
+    height: auto;
+    width: 104px;
+    position: relative;
+}
+
+.header__cart:after {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    content: '';
+    opacity: 0.25;
+    
+}
+
+.bO {
+    margin-top: 46px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.bOProducts {
+    margin: 61px 106px 0px 106px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.tagline {
+    margin-top: 20px;
+    display: flex;
+    justify-content:center;
+    align-items: center; 
 }

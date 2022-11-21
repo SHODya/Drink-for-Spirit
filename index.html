@@ -8,6 +8,7 @@
     <title>Drink for Spirit</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./script.js"></script>
 </head>
 
 <body>
@@ -26,10 +27,13 @@
                     <a href="./Contact.html" class="nav__link">Contact</a>
                     <a href="./About.html" class="nav__link">About</a>
                 </nav>
+                <div class="overlay" onclick="off()">
 
+                </div>
                 <div class="header__block">
-                    <div class="header__cart">
-                        <a href="./Cart.html" class="cart__link"><img src="./img/svg/cartmg.svg" alt="">Cart</a>
+                    <div class="header__cart" >
+                        <!-- href="./Cart.html"  -->
+                             <button class="cart__link" onclick="on()"><img src="./img/svg/cartmg.svg" alt="">Cart</button>
                     </div>
                 </div>
             </div>

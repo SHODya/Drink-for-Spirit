@@ -338,6 +338,14 @@ html {
 
 }
 
+.prdctBtn {
+    float: left;
+}
+
+.productOne {
+    margin-top: 26px;
+}
+
 .productoneMenu {
     width: 416px;
     vertical-align: top;
@@ -418,6 +426,7 @@ html {
     align-items: center;
     margin-top: 30px;
 }
+
 .vacObj {
     display: flex;
     justify-content: space-around;
@@ -425,6 +434,7 @@ html {
     margin-top: 10px;
 
 }
+
 .vacobjText {
     font-family: 'Karla';
     font-style: normal;
@@ -443,5 +453,57 @@ html {
     line-height: 37px;
     text-align: center;
     width: 728px;
-    margin-top: 65px; 
+    margin-top: 65px;
+}
+
+.busObj {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.busText {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    width: 1489px;
+    margin: 26px 0px 26px 0px;
+}
+
+.busPartn {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 26px;
+    position: relative;
+}
+
+.busPartn:after {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    content: '';
+    opacity: 0.25;
+}
+
+.busPartnSVG {
+    width: 1250px;
+}
+
+.prdctBtn {
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    left: 206px;
+    top: 832px;
 }

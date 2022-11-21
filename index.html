@@ -21,19 +21,18 @@
                     </a>
                 </div>
                 <!-- header__block -->
+
+
                 <nav class="nav">
                     <a href="./index.html" class="nav__link">Home</a>
                     <a href="./Menu.html" class="nav__link">Menu</a>
                     <a href="./Contact.html" class="nav__link">Contact</a>
                     <a href="./About.html" class="nav__link">About</a>
                 </nav>
-                <div class="overlay" onclick="off()">
-
-                </div>
                 <div class="header__block">
                     <div class="header__cart" >
-                        <!-- href="./Cart.html"  -->
-                             <button class="cart__link" onclick="on()"><img src="./img/svg/cartmg.svg" alt="">Cart</button>
+                       
+                             <a class="cart__link" href="./Cart.html"><img src="./img/svg/cartmg.svg" alt="" >Cart</a>
                     </div>
                 </div>
             </div>
@@ -52,6 +51,18 @@
             <a href=""><img src="./img/svg/BestOfferThree.svg" alt=""></a>
         </div>
         <div class="tagline">
+            <input type="checkbox" id="hmt" class="hidden-menu-ticker" onclick="openMenu()">
+            <label class="btn-menu" for="hmt">
+                <span class="first"></span>
+                <span class="second"></span>
+                <span class="third"></span>
+            </label>
+            <ul class="hidden-menu">
+                <li><a href="./Coffee.html">Coffee</a></li>
+                <li><a href="./Coffee.html">Tea</a></li>
+                <li><a href="./Coffee.html">Pie</a></li>
+            </ul>
+
             <p><img src="./img/svg/tagline.svg" alt=""></p>
         </div>
     </div>
